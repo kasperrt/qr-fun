@@ -1,0 +1,45 @@
+.container {
+    width: 90vw;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20px;
+}
+
+canvas {
+    width: 90vw;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#loadingMessage {
+    text-align: center;
+}
+
+.inline-form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+img {
+    widows: 75vw;
+    margin: auto;
+}

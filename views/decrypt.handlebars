@@ -1,0 +1,13 @@
+<p>{{encrypted}}</p>
+<p>{{decrypted.name}}</p>
+<p>{{decrypted.address}}</p>
+<p>{{decrypted.telephone}}</p>
+<ul>
+{{#each decrypted.orders}}
+    <li>{{this.name}}</li>
+    <li>{{this.quantity}} stykk</li>
+    <li>pr. {{this.measuredIn}}</li>
+    <li>totalpris: {{this.totalPrice}}</li>
+{{/each}}
+</ul>
+<code>{{{json decrypted}}}</code>
