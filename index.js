@@ -6,11 +6,11 @@ let express = require("express"),
   qrcodeReader = require("jsqr"),
   qrcodeCreator = require("qrcode"),
   aes256 = require("aes256"),
-  mongo = require("mongodb").MongoClient;
+  //mongo = require("mongodb").MongoClient;
 
-const mongoUrl = "mongodb://localhost:27017";
-const dbName = "rekoring";
-let db;
+//const mongoUrl = "mongodb://localhost:27017";
+//const dbName = "rekoring";
+//let db;
 let app = express();
 let key = "dette er ikke en sikker nøkkel";
 let orderObject = {
@@ -28,7 +28,7 @@ let orderObject = {
   ]
 };
 
-mongo.connect(
+/*mongo.connect(
   mongoUrl,
   (error, client) => {
     if (error) {
@@ -38,7 +38,7 @@ mongo.connect(
 
     db = client.db(dbName);
   }
-);
+);*/
 
 app.engine(
   "handlebars",

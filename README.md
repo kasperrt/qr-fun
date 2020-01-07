@@ -1,6 +1,6 @@
 ### QR STUFF
 
-Prerequisits: mongodb installed, npm, node.js
+Prerequisits: npm, node.js
 
 `$ node index.js`
 
